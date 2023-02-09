@@ -1,0 +1,212 @@
+body {
+    background: linear-gradient(#FAAB78, #FCF9BE);
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image: url(Boaderimg.jpeg) 20% round;
+    margin: 0%;
+    width: 95%;
+    box-shadow: 10px 5px 5px rgba(255, 213, 62, 0.804);
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color:#FFD384 ;
+}
+
+#stationarypic img {
+    border-radius: 35%;
+    padding: 0%;
+    margin: 60px auto 0 auto;
+    display:flex;
+    justify-content:space-around; 
+    border: 1px solid black; 
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    border: 1px solid yellow;
+    background-size: 100% 90px;
+    background-repeat: repeat;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url() 40 round;
+}
+
+
+
+nav {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px;
+    display:flex;
+    justify-content:space-evenly; 
+    
+}
+
+
+  
+h3{
+
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+#UpperText {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+p {
+
+    font-size: 20px;
+}
+
+
+li{
+    font-size: larger;
+}
+
+
+
+ol{
+    font-size: larger;
+}
+
+#commentSection{
+
+    height: min-content;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    width: min-content;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    float: left;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.259);
+    background: linear-gradient(#FAAB78, #FCF9BE);
+    overflow-y:scroll;
+    
+}
+
+#sampleText{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bees img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;  
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px; transform: rotateZ(0deg);}
+    25%  {left:200px; top:0px; transform: rotateZ(0deg);}
+    50%  {left:400px; top:0px; transform: rotateZ(0deg);}
+    75%  {left:800px; top:0px; transform: rotateZ(0deg);}
+    95%  {left:1200px;top:0px; transform: rotateZ(0deg);}
+    100% {left:1400px; top:0px; transform: rotateZ(0deg);}
+  }
+
+
+
+
+#cutebee2 {
+
+    float:right;
+
+}
+
+
+
+
+/* #cutebee2 {
+
+    float:right;
+    
+  }
+   */
+
+/*#Fly {
+
+    position:relative;
+    animation-name: example;
+    animation-duration: 10s;
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 10%;
+    height:10%;
+    object-position: 20px 20%;
+  }
+
+
+  #Fly img {
+    position: relative;
+    animation-name: example;
+    animation-duration: 40s
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 30%;
+    object-position: 20px 20%;
+  }
+  
+
+  #Fly2 img {
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 30%;
+    object-position: 20px 20%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 40s
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } 
+
+  #Fly3 img {
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 30%;
+    object-position: 20px 20%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 40s
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } 
+
+
+  #Fly4 img {
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 30%;
+    object-position: 20px 20%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 40s
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } */
+
+  
+  /* The element to apply the animation to */
+ 
+
+  
