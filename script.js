@@ -44,11 +44,14 @@ function printInput() {
 
 function loveTheBees() {
 
-    let text = prompt("Do you love bees");
-    if (text != 'Yes'){
+    let text = prompt("Do you love bees?");
+    text = text.toUpperCase();
+    if (text != 'yes'){
         alert("You're not nice.")
-    } 
+    } else {
+        alert("You're such a great person");
+    }
 
 }
 
-printSupport();
+loveTheBees();
