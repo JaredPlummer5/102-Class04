@@ -141,80 +141,15 @@ ol{
 }
 
 
+.div{
+    border-width: 1px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: ;
+}
 
-
-/* #cutebee2 {
-
-    float:right;
-    
-  }
-   */
-
-/*#Fly {
-
-    position:relative;
-    animation-name: example;
-    animation-duration: 10s;
-    margin-left: 5px;
-    margin-right: 0px;
-    width: 10%;
-    height:10%;
-    object-position: 20px 20%;
+select {
+    font-family: 'FontAwesome', 'sans-serif';
   }
 
-
-  #Fly img {
-    position: relative;
-    animation-name: example;
-    animation-duration: 40s
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    margin-left: 5px;
-    margin-right: 0px;
-    width: 30%;
-    object-position: 20px 20%;
-  }
-  
-
-  #Fly2 img {
-    margin-left: 5px;
-    margin-right: 0px;
-    width: 30%;
-    object-position: 20px 20%;
-    position: relative;
-    animation-name: example;
-    animation-duration: 40s
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  } 
-
-  #Fly3 img {
-    margin-left: 5px;
-    margin-right: 0px;
-    width: 30%;
-    object-position: 20px 20%;
-    position: relative;
-    animation-name: example;
-    animation-duration: 40s
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  } 
-
-
-  #Fly4 img {
-    margin-left: 5px;
-    margin-right: 0px;
-    width: 30%;
-    object-position: 20px 20%;
-    position: relative;
-    animation-name: example;
-    animation-duration: 40s
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  } */
-
-  
-  /* The element to apply the animation to */
- 
-
-  
