@@ -95,7 +95,7 @@ ol{
     border-color: black;
     border-style: double;
     border-width: 5px;
-    width: min-content;
+    width: 190px;
     max-height: 300px;
     overflow: hidden;
     float: left;
@@ -145,11 +145,11 @@ ol{
     border-width: 1px;
     width: 70px;
     height: 70px;
-    display: flex;
-    justify-content: ;
 }
 
-select {
-    font-family: 'FontAwesome', 'sans-serif';
-  }
+.ratingPictures{
 
+    width: 200px;
+    height: 200px;
+
+}

@@ -2,8 +2,18 @@
 <html>
 
  <head>
-  
-   
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>AllAboutBees</title>
+  <script 
+    
+    src="https://kit.fontawesome.com/0049fbaa45.js" 
+    crossorigin="anonymous"
+    
+  ></script>
+
  </head>
 
  <body>
@@ -50,31 +60,75 @@
  </div>
 
 
-   <div id = "commentSection">
-      
-      <input type="text" id="inputBox">
-      <button onclick="printInput()" id = "submitBtn">Show your support</button>
-      <div id ="sampleText"></div> 
-      <link rel="stylesheet" href="style.css" />
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
-      <div id = "Icons">
-        <select>
-          <option value="fa-align-left">&#xf036; align-left</option>
-          <option value="fa-align-right">&#xf038; align-right</option>
-          <option value="fa-amazon">&#xf270; amazon</option>
-          <option value="fa-ambulance">&#xf0f9; ambulance</option>
-          <option value="fa-anchor">&#xf13d; anchor</option>
-          <option value="fa-android">&#xf17b; android</option>
-          <option value="fa-angellist">&#xf209; angellist</option>
-          <option value="fa-angle-double-down">&#xf103; angle-double-down</option>
-          <option value="fa-angle-double-left">&#xf100; angle-double-left</option>
-          <option value="fa-angle-double-right">&#xf101; angle-double-right</option>
-          <option value="fa-angle-double-up">&#xf102; angle-double-up</option>
-       </select>
-      </div>
-   
-   </div>
+  <div id = "commentSection">
 
+    <!-- <input type="text" id="inputBox" value="">
+    <button onclick="printInput()" id = "submitBtn">Show your support</button>
+    <div id ="sampleText"></div> 
+     -->
+    
+      
+    <div id = "Icons">
+      
+      <div id = "houseIcon" >
+        
+        <i id ="userIcons1"  class="fa-sharp fa-solid fa-house"></i>
+        <input type="text" id="inputBox" value="">
+        <button onclick="printInput()" id = "submitBtn1">Show your support</button>
+        <div id ="sampleText"></div> 
+        
+      </div>
+
+
+
+
+      <div id = "userIcon">
+
+        <i id ="userIcons2" class="fa-sharp fa-solid fa-user"></i>
+        <input type="text" id="inputBox" value="">
+        <button onclick="printInput()" id = "submitBtn2">Show your support</button>
+        <div id ="sampleText"></div>
+        
+
+      </div>
+
+
+
+
+      <div id = "starIcon">
+
+        <i id ="userIcons3" class="fa-sharp fa-solid fa-star"></i>
+        <input type="text" id="inputBox" value="">
+        <button onclick="printInput()" id = "submitBtn3">Show your support</button>
+        <div id ="sampleText"></div>
+        
+      </div>
+
+
+
+
+      <div id = "hippoIcon">
+
+        <i id ="userIcons4" class="fa-sharp fa-solid fa-hippo"></i>
+        <input type="text" id="inputBox" value="">
+        <button onclick="printInput()" id = "submitBtn4">Show your support</button>
+        <div id ="sampleText"></div>
+
+      </div>
+
+    </div> 
+  </div>
+
+   
+  
+   
+   
+   
+   
+   
+   
+   
+   
    <div id = "stationarypic">
       <img src = "https://www.westernpest.com/wp-content/uploads/honey-bee-4.jpg"/>
    </div>
@@ -97,10 +151,6 @@
    Three-fourths of the world’s flowering plants and about 35 percent of the world’s food crops depend on animal pollinators to reproduce. This demonstrates the importance of pollination in global food systems. In addition to supporting agriculture, pollinators also support the reproduction of flowering plants that:
  </p>
 
-
-
-
-<!-- <input placeholder="Search..."></input> -! How to do a search bar -->
    
  
  
@@ -169,13 +219,17 @@
 
    <footer>
     <h3>Ratings</h3>
+    <p id="thisPar"></p>
+    <button id="btn" onclick="rating()">Rate Me!</button>
    </footer>
 
   <div class = "div">
     <script src = "script.js"></script>
   </div>
+  
+  <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rdatnwBYHTc?controls=0&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
- </body>
+</body>
 
 
 
