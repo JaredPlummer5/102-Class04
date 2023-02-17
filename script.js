@@ -16,74 +16,96 @@ let userAns = "";
 }
 
 
-function printIcon(iconName) { // This line starts a new function called printIcon that accepts a parameter called iconName.
-    const iconsArray = ["house", "user", "star", "hippo"]; // This line creates an array called iconsArray that contains four string values representing the names of different icons.
+function printIcon(iconName) { 
+    // This line starts a new function called printIcon that accepts a parameter called iconName.
+    const iconsArray = ["house", "user", "star", "hippo"]; 
+    // This line creates an array called iconsArray that contains 
+    // four string values representing the names of different icons.
     
-    for (let i = 0; i < iconsArray.length; i++) { // This line starts a for loop that iterates through each item in the iconsArray array. The let keyword creates a new variable called i that is used to keep track of the current iteration.
-      const iconId = iconsArray[i] + "Icon"; // This line creates a new string variable called iconId that combines the current item in the iconsArray array with the string "Icon". This is done to create a unique ID for each HTML element that represents an icon.
-      const iconElement = document.getElementById(iconId); // This line uses the document.getElementById() method to select an HTML element with an ID that matches the iconId string.
+    for (let i = 0; i < iconsArray.length; i++) { 
+        // This line starts a for loop that iterates through each item in the iconsArray array. 
+        //The let keyword creates a new variable called i that is used to keep track of the current iteration.
+     
+     
+        const iconId = iconsArray[i] + "Icon"; 
+      // This line creates a new string variable called iconId that combines 
+      // the current item in the iconsArray array with the string "Icon". 
+      // This is done to create a unique ID for each HTML element that represents an icon.
+      
+      
+      const iconElement = document.getElementById(iconId); 
+      // This line uses the document.getElementById() method to select an 
+      // HTML element with an ID that matches the iconId string.
     
-      if (iconsArray[i] === iconName) {       // This if statement checks if the current item in the iconsArray array is equal to the iconName parameter. 
-        iconElement.style.display = "block";  // If it is, then it sets the style.display property of the corresponding HTML element to "block"
-     //                                       // , which makes the icon visible. 
+      if (iconsArray[i] === iconName) {       
+        // This if statement checks if the current item in the iconsArray array is equal to the iconName parameter. 
+        iconElement.style.display = "block"; 
+        // If it is, then it sets the style.display property of the corresponding HTML element to "block"
+        // , which makes the icon visible.
         
-      } else { // If it is not, then it sets the style.display property to "none", which hides the icon.
-
-        iconElement.style.display = "none";
+        
+      } else { 
+        iconElement.style.display = "none"; 
+        // If it is not, then it sets the style.display property to "none", which hides the icon.
       }
     }
   }
 
 
-  // These lines use the document.querySelector() method to select several HTML elements and assign them to variables. 
-  // The first line selects an element with a class of "modal", while the next five lines select buttons with different IDs.
-  
   const modal = document.querySelector('.modal');
   const okBtn = document.querySelector('#ok-btn');
   const okBtn2 = document.querySelector('#ok-btn2');
   const okBtn3 = document.querySelector('#ok-btn3');
   const okBtn4 = document.querySelector('#ok-btn4');
+  // These lines use the document.querySelector() method to 
+  // select several HTML elements and assign them to variables. 
+
+  // The first line selects an element with a class of "modal", 
+  // while the next five lines select buttons with different IDs.
   
   
-  okBtn.addEventListener('click', () => { //This line sets up an event listener for the okBtn element. 
-    modal.style.display = 'none';         // When this button is clicked, the callback function sets the style.display property of the modal element to "none"
-    printIcon('house');                   //, and then calls the printIcon function with the argument 'house'.
-  });
   
-  okBtn2.addEventListener('click', () => { // This line sets up an event listener for the okBtn2 element
-    modal.style.display = 'none';          // , which has the same functionality as the previous event listener, 
-    printIcon('user');                     // but calls the printIcon function with the argument 'user'.
-  });
+  okBtn.addEventListener('click', () => { 
+    //This line sets up an event listener for the okBtn element. 
+     modal.style.display = 'none';         
+     printIcon('house');                   
+    });
+    // When this button is clicked, the callback function sets the style.display property of the modal element to "none"
+    //, and then calls the printIcon function with the argument 'house'.
   
-  okBtn3.addEventListener('click', () => { // This line sets up an event listener for the okBtn3 element, 
-    modal.style.display = 'none';           // which has the same functionality as the previous event listeners, 
-    printIcon('star');                      // but calls the printIcon function with the argument 'star'.
-  });
+  okBtn2.addEventListener('click', () => {
+      modal.style.display = 'none';         
+      printIcon('user');                   
+    });
+    // This line sets up an event listener for the okBtn2 element
+    // , which has the same functionality as the previous event listener,
+    // but calls the printIcon function with the argument 'user'.
+    
+    okBtn3.addEventListener('click', () => { 
+      modal.style.display = 'none';           
+      printIcon('star');                      
+    });
+
+    // This line sets up an event listener for the okBtn3 element, 
+    // which has the same functionality as the previous event listeners, 
+    // but calls the printIcon function with the argument 'star'.
   
   okBtn4.addEventListener('click', () => {
     modal.style.display = 'none';
     printIcon('hippo');
   });
+  // This line sets up an event listener for the okBtn4 element, 
+    // which has the same functionality as the previous event listeners, 
+    // but calls the printIcon function with the argument 'hippo'.
   
 //   cancelBtn.addEventListener('click', () => {
 //     modal.style.display = 'none';
 //     printIcon();
 //   });
   
-  // show the modal
-  modal.style.display = 'block';
+modal.style.display = 'block';
+// show the modal
   
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -94,10 +116,6 @@ function printIcon(iconName) { // This line starts a new function called printIc
 //     text = prompt("Do you love bees?");
 
 // }
-
-
-
-
 
 
 
