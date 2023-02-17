@@ -120,7 +120,7 @@ modal.style.display = 'block';
 
 
 
-// function tryAgain(){
+// function tryAgain(){ 
 //     let myUsername = prompt("What is your username?");
 //     let secondName = " ";
    
